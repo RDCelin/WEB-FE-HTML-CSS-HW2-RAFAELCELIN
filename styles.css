@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
@@ -67,3 +67,65 @@ body {
     grid-column: 1 / 5;
     grid-row: 5 / 6;
   }
+
+  /*aqui comienza contact*/
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.container {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.left {
+    flex: 1;
+    padding-right: 20px;
+}
+.right {
+    flex: 1;
+}
+.left img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+.left p {
+    margin-top: 20px;
+    text-align: justify;
+}
+.right form {
+    display: flex;
+    flex-direction: column;
+}
+.right form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.right form input,
+.right form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.right form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.right form input[type="submit"]:hover {
+    background-color: #45a049;
+}
