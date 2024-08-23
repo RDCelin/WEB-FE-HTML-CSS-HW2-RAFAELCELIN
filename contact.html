@@ -11,26 +11,30 @@
 <body>
     <div class="container">
         <div class="left">
-            <img src="imagen-producto.jpg" alt="Imagen publicitaria de tu producto">
-            <p>Texto publicitario de tu producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+            <img src="images/Aperture_Laboratories_Logo.svg" alt="Aperture Logo">
+           
+            <p style="font-family:verdana">Are you a homeless man and/or someone no one would miss? Do you want 60 bucks or do you simply have nothing better to do? Then come to aperture science to <s>throw your life away</s>  advance scientific progress now!!</p>
+            <a href="index.html" class="back-button">Be a coward</a>
         </div>
+        
         <div class="right">
             <form action="#" method="post">
-                <label for="nombre">Nombre y Apellido:</label>
-                <input type="text" id="nombre" name="nombre" required>
+                <label for="nombre">Name (So we can erase all traces of you):</label>
+                <input type="text" id="name" name="name" required>
     
-                <label for="correo">Correo:</label>
-                <input type="email" id="correo" name="correo" required>
+                <label for="correo">E-Mail(If you dont have one just make it up):</label>
+                <input type="email" id="mail" name="mail" required>
     
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono" required>
+                <label for="phone">Phone (If you dont have one just make it up):</label>
+                <input type="tel" id="phone" name="phone" required>
     
-                <label for="requerimiento">Explícanos tu requerimiento:</label>
-                <textarea id="requerimiento" name="requerimiento" rows="4" required></textarea>
+                <label for="why">Explain why we should hire you (Hint:You want those 60 bucks):</label>
+                <textarea maxlength="255" id="why" name="why" rows="4" required></textarea>
     
-                <input type="submit" value="Enviar">
+                <input type="submit" value="send">
             </form>
         </div>
+        
     </div>
 
 </body>
